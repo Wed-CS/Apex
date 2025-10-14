@@ -7,7 +7,7 @@ package apex;
  *
  * Implements `Comparable` to allow sorting by teacher ID.
  *
- * @author Wed
+ * @author Wed Badahdah
  */
 import java.util.ArrayList;
 
@@ -81,4 +81,5 @@ public class Teacher extends User implements Comparable {
     public String toString() {
         return super.toString() + "\nExperience: " + Experience;
     }
+
 }
